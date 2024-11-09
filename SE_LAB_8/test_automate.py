@@ -23,7 +23,7 @@ Test_Cases = [
 def test_page_conditions(setup_browser, a, b, c, d):
     driver = setup_browser
 
-    # Open the local HTML file (replace with the correct path to your index.html file)
+    # Open the local HTML file 
     driver.get("file:///C:/Users/Tesla%20Laptops/OneDrive/Desktop/Software_Engineering_Labs-1/SE_LAB_8/index.html")
     
     # Add a delay to allow the page to process the form and show the result
